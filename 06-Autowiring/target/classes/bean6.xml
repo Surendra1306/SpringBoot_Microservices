@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    
+  <!--   <bean id="printer" class="in.surendra.HpPrinter"/>      used for autowire byname  
+    
+         <bean id="sny" class="in.surendra.SonyPrinter"/>  
+     
+          <bean id="atm" class="in.surendra.ATM" autowire="byName"/>        -->  
+          
+          
+       <!--     <bean id="hp" class="in.surendra.HpPrinter"   primary="true"/>      used for autowire bytype  
+    
+                <bean id="sny" class="in.surendra.SonyPrinter"/>  
+     
+                <bean id="atm" class="in.surendra.ATM" autowire="byType"/>         --> 
+                
+                
+                
+                <!-- autowiring using constructor-->
+                 <bean id="hp" class="in.surendra.HpPrinter"  primary="true"/>        
+    
+                <bean id="sny" class="in.surendra.SonyPrinter"/>  
+     
+                <bean id="atm" class="in.surendra.ATM" autowire="constructor"/>  
+                
+
+</beans>

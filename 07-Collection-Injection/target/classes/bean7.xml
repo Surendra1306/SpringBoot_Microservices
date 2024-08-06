@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    
+   <bean id="student" class="in.surendra.Student">
+	   <property name="id" value="101"/> 
+	   
+	    <property name="name" value="vikram"/>
+	    
+	    <property name="courses">
+			<list>
+				<value>Java</value>
+				<value>Python</value>
+				<value>Linux</value>
+				<value>AWS</value>
+				<value>Devops</value>
+			</list>
+			 </property>
+			 
+			 <property name="hobbies">
+				 <set>
+					 <value>reading books</value>
+					 <value>listening music</value>
+					 <value>palying cricket</value>
+				 </set>
+			 </property>
+			 
+			 <property name="Phn_no">
+				 <map>
+					 <entry key="personal_no" value="735392292"/> 
+					 <entry key="whatsapp_no" value="701329838"/> 
+					 <entry key="landline_no" value="0183849329"/>
+				 </map>
+			 </property>
+   </bean>          
+
+</beans>

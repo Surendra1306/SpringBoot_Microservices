@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    
+     <!--<bean id="pds" class="in.surendra.PswdService"/>  default singleton prototype --> 
+    
+    <!-- <bean id="pds" class="in.surendra.PswdService" scope="prototype"/>     for prototype , multiple objects will be created--> 
+    
+    
+    
+    <bean id ="eng" class="in.surendra.Engine" init-method="start" destroy-method="dead"/>   <!-- for bean life cycle-->
+
+</beans>

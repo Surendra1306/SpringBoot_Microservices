@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: Cloud_ApiGateWay
+    
+  spring:
+  cloud:
+    gateway:
+      routes:
+      - id: welcome-api
+        uri: lb://WelcomeMsg-ClientApp
+        predicates:
+        - Path=/welcome
+      - id: greet-api
+        uri: lb://GreetMsg-ClientApp
+        predicates:
+        - Path=/greet        
+server:
+  port: 3333
+  
+
+  
+  
