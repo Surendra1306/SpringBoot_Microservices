@@ -29,7 +29,7 @@ public class EmailUtils {
 			MimeMessageHelper helper = new MimeMessageHelper(mimeMessage);
 			helper.setTo(to);
 			helper.setSubject(Subject);
-			helper.setText(body);
+			helper.setText(body, true);
 			
 			mailsender.send(mimeMessage);
 			return true;
