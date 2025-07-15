@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;in.surendra.Student.Phn_no&apos; in &apos;in.surendra.Student&apos;&#x0D;&#x0A;- Original project: &apos;07-Collection-Injection&apos;&#x0D;&#x0A;- Original element: &apos;in.surendra.Student.Phn_no&apos;&#x0D;&#x0A;- Getter method name: &apos;getPhn_no&apos;&#x0D;&#x0A;- Setter method name: &apos;setPhn_no&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;Phn_no&apos;" flags="589830" getter="getPhn_no" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.surendra{Student.java[Student^Phn_no" insertion="9" setter="setPhn_no" stamp="1710089507363" version="1.0" visibility="1"/>
+</session>

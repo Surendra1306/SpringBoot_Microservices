@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1709818230712_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1709818230731_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1717606319427_3" label="ECommerce_Major_Project" name="ECommerce_Major_Project">
+<item elementID="=02-Admin-Server" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=03-Config-Server" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=01-Eureka-Server" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=04-Auth_Service" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=05-Product_Service" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=06-Cart_Service" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=07-Order_Service" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=08-Report_Service" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1709818235653_2" label="Window Working Set" name="Aggregate for window 1709818235653"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1718621571060_5" label="Multiple Working Sets" name="Aggregate:ECommerce_Major_Project:Java Main Sources:">
+<workingSet IMemento.internal.id="ECommerce_Major_Project"/>
+<workingSet IMemento.internal.id="Java Main Sources"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1718621754396_6" label="Multiple Working Sets" name="Aggregate:ECommerce_Major_Project:Java Main Sources:Java Test Sources:">
+<workingSet IMemento.internal.id="ECommerce_Major_Project"/>
+<workingSet IMemento.internal.id="Java Main Sources"/>
+<workingSet IMemento.internal.id="Java Test Sources"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1718622225864_10" label="Multiple Working Sets" name="Aggregate:Another_Project:ECommerce_Major_Project:">
+<workingSet IMemento.internal.id="ECommerce_Major_Project"/>
+</workingSet>
+<mruList name="ECommerce_Major_Project"/>
+<mruList name="Java Main Sources"/>
+</workingSetManager>

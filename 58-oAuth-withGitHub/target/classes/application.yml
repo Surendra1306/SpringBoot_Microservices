@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: 58-oAuth-withGitHub
+    
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Ov23lisVHeD0BP6uptax
+            client-secret: b40b52443b1f150f8869809473fe03e22f24872d
+            
+server:
+  port: 8081

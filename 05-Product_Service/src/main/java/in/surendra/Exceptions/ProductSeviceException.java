@@ -4,6 +4,7 @@ public class ProductSeviceException extends RuntimeException{
 	
 	private String errCode;
 	
+	private static final long serialVersionUID = 1L;
 	
 	public ProductSeviceException(String msg, String errCode) {
 		

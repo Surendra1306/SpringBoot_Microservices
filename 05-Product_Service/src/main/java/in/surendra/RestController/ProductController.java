@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -17,6 +18,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import brave.propagation.CurrentTraceContext.Scope;
 import in.surendra.Constants.AppConstants;
 import in.surendra.Dto.ProductDto;
 import in.surendra.PropMessages.PropertyMessages;
@@ -29,7 +31,7 @@ public class ProductController {
 	@Autowired
 	private ProductService productService;
 	
-	@Autowired
+	@Autowired 
 	private PropertyMessages messages;
 	
 	@PostMapping("/product")

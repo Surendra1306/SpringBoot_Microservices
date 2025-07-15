@@ -37,6 +37,7 @@ public class CustomerController {
 		return new ResponseEntity<String>("User registered successfully....",HttpStatus.CREATED);
 	}
 	
+	@PostMapping("/login")
 	public ResponseEntity<String> userLogin(@RequestBody Customer customer){
 		UsernamePasswordAuthenticationToken token =
 				new UsernamePasswordAuthenticationToken(customer.getEmail(), customer.getPwd());

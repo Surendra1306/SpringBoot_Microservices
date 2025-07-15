@@ -34,5 +34,5 @@ public class UserController {
 	@ResponseBody	//used to send data to server in the form of key-pair value
 	 public String getGreets(@RequestParam("name") String name) {
 		 return name+"good morning,have a nice day..";
-	 }  //http://localhost:8082/welcomes?name=ram   -we can also send multiple parameters
+	 }  //http://localhost:8082/greets?name=ram   -we can also send multiple parameters
 }	//Get request will send the data in the url as a query param,but its not recomended.so we use post req to hide data in url
